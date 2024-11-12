@@ -77,14 +77,19 @@ Select the “Storage Blob Data Contributor” role, then click on next or go to
 ![image](https://github.com/user-attachments/assets/e87df906-463b-404d-b76c-e55609830b1b)
 
 
-Use Case Explanation
+17.Use Case Explanation
 We will be working with transactional data referred to loan transactions and customers from GeekBankPE (a famous bank around the world).
 
 You have two requirements from different areas of the bank.
 
 1.The Marketing area needs to have updated customer data to be able to contact them and make offers.
+
 2.The Finance area requires to have daily loan transactions complemented with customer drivers to be able to analyze them and improve the revenue.
+
 To comply with the request, we are going to perform incremental loads and also using techniques like upsert.
+
+![image](https://github.com/user-attachments/assets/93516ada-1655-49fd-8111-938a7ed58f29)
+
 
 
 
