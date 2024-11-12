@@ -70,12 +70,7 @@ Select the “Storage Blob Data Contributor” role, then click on next or go to
 
 ![image](https://github.com/user-attachments/assets/49e3d286-7072-4bd1-92f3-42d63d626be8)
 
-16.Open your notebook and start your cluster.(check with databricks_notebook file)
-
-![image](https://github.com/user-attachments/assets/a8323417-ec3f-4b33-aa0e-6c9bc7726a6d)
-
-![image](https://github.com/user-attachments/assets/e87df906-463b-404d-b76c-e55609830b1b)
-
+16.Open your notebook and start your cluster.(check with adlsmount_notebook file)
 
 Use Case Explanation
 We will be working with transactional data referred to loan transactions and customers from GeekBankPE (a famous bank around the world).
