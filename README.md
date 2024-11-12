@@ -66,7 +66,12 @@ Select the “Storage Blob Data Contributor” role, then click on next or go to
 
 ![image](https://github.com/user-attachments/assets/2381c12b-30cf-4c4b-9084-fda2cc1adffb)
 
-15.
+15.Mount azure containers into databricks,Create a workspace with the name “moun-adls-storage”  and inside it a folder called set-up
+
+![image](https://github.com/user-attachments/assets/49e3d286-7072-4bd1-92f3-42d63d626be8)
+
+16.Open your notebook and start your cluster.
+
 
 
 
