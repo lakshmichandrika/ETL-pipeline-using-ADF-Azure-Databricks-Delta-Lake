@@ -142,7 +142,12 @@ Also in your databricks workspace create a folder called "includes" and inside i
 
 ![image](https://github.com/user-attachments/assets/7955384f-b719-40f6-917c-941a036ca7f7)
 
-6.
+6.Complete all databricks notebooks
+
+7.Testing our files,A very easy way to test our files is by creating another python file wherever you want
+
+![image](https://github.com/user-attachments/assets/42adeeae-84bc-416b-b67c-d565a6a96614)
+
 
 
 
