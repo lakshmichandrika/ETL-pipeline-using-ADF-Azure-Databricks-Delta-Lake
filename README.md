@@ -148,11 +148,16 @@ Also in your databricks workspace create a folder called "includes" and inside i
 
 ![image](https://github.com/user-attachments/assets/42adeeae-84bc-416b-b67c-d565a6a96614)
 
+8.Data Enrichment:we are going to perform some joins with our tables, aggregations, we will use upsert technique and finally query our tables
 
+On your databricks workspace create a folder named enrichment & create 2 new python files named:
+- customer.py
+- loantTrx.py
+On your databricks workspace create a set-up folder create a new python file named:
+- database.py
 
-
-
-
+![alt text](image.png)
+![alt text](image-1.png)
 
 
 
