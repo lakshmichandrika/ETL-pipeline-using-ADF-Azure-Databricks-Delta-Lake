@@ -58,6 +58,18 @@ Select the “Storage Blob Data Contributor” role, then click on next or go to
 
 ![image](https://github.com/user-attachments/assets/99177556-ffec-4858-b07f-713df1947526)
 
+13.Link Databricks Secret Scopes with Azure Key-vault,Launch your Databricks Workspace, and go to your portal page. Once you are there you need to add “secrets/createScope” after the “#” symbol in the URL and click enter.
+
+![image](https://github.com/user-attachments/assets/4016624a-8e1b-44b6-a8f8-6b4ae31e28d9)
+
+14.On the new screen displayed, set an scope-name, set manage principal to All Users and also fill the DNS Name (Vault URI) and Resource Id with the corresponding values from your Azure Key-Vault (Step 3) and click on Create.
+
+![image](https://github.com/user-attachments/assets/2381c12b-30cf-4c4b-9084-fda2cc1adffb)
+
+15.
+
+
+
 
 
 
