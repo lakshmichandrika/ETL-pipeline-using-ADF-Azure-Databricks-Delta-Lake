@@ -147,7 +147,7 @@ Also in your databricks workspace create a folder called "includes" and inside i
 
 ![image](https://github.com/user-attachments/assets/7955384f-b719-40f6-917c-941a036ca7f7)
 
-
+6.
 
 
 
