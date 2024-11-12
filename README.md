@@ -122,9 +122,30 @@ About dataset:
 - evaluationChannel: channel by which the loan was sold
 - interest_rate: rate of the loan
 
+1.Upload data to bronze layer either using adf pipeline or using Azure Storage Explorer
 
+2.download : https://azure.microsoft.com/en-us/products/storage/storage-explorer/#overview
 
+3.Once you have set up your Storage Explorer, you just need to drag and drop the folders in it
 
+![image](https://github.com/user-attachments/assets/248d7c45-bdfd-405c-8180-37e063d80df7)
+
+4.The execution order of our files is the following:
+
+![image](https://github.com/user-attachments/assets/bc5045d2-57c7-45bb-ab3a-f9f4dcba231f)
+
+5.On your databricks workspace create a folder called "ingestion" and inside it the following notebooks:
+- customer.py
+- customerDriver.py
+- loanTransaction.py
+  
+Also in your databricks workspace create a folder called "includes" and inside it the following notebooks:
+- common_functions.py
+- configurations.py
+
+![image](https://github.com/user-attachments/assets/386b2f39-6c8e-453c-9ee4-88a824c0fff5)
+
+![image](https://github.com/user-attachments/assets/7955384f-b719-40f6-917c-941a036ca7f7)
 
 
 
