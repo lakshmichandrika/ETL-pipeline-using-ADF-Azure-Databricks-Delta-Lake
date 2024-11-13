@@ -187,8 +187,11 @@ Copy the token to a notepad because we will need it later
 
 create a pipeline and give 
 Settings:
+
 — Concurrency = 1
+
 Parameters:
+
 — Create “p_processing_date” param of type string.
 
 
