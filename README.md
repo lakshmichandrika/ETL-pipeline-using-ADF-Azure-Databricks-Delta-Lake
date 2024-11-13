@@ -187,12 +187,64 @@ Copy the token to a notepad because we will need it later
 
 create a pipeline and give 
 Settings:
-
 — Concurrency = 1
-
 Parameters:
-
 — Create “p_processing_date” param of type string.
+
+4.in the pipeline ,search for notebook
+
+5.We need to create a databricks linked service.Select your activity go to Azure Databricks tab and click on New
+
+![image](https://github.com/user-attachments/assets/dacd698a-00d9-4e01-9581-5ef8637ab758)
+
+![image](https://github.com/user-attachments/assets/d9ca3f3c-5eaa-4953-9f22-890b64195dcc)
+
+![image](https://github.com/user-attachments/assets/166bc6bf-a1c3-46be-94fd-97a69045c4bb)
+
+Go the Base parameters section and add one parameter named “p_file_date” (Note this param should have the same name, we use on our notebooks on databricks). Click on Add dynamic content.
+
+![image](https://github.com/user-attachments/assets/79cc89cf-d584-498a-a2bf-492c297eb4d7)
+
+Select your parameter and use the @formatDateTime(date, str_format) to cast it from date to string and click on OK.
+@formatDateTime(pipeline().parameters.p_processing_date, ‘yyyy-MM-dd’)
+
+![image](https://github.com/user-attachments/assets/1ca781cd-9350-4113-867e-d129fa0928dd)
+
+6.follow the same procedure and configure
+
+![image](https://github.com/user-attachments/assets/f8d768d8-8ffa-4b3b-9439-f06f51d9bfd3)
+
+7.create a tumbling window trigger
+
+![image](https://github.com/user-attachments/assets/19f5850e-a227-465a-81c7-552f714c7cb7)
+
+![image](https://github.com/user-attachments/assets/6ac51a99-092b-46c1-a5a3-913cfc61d569)
+
+
+8.After clicking OK, on the new screen we need to send a value to our pipeline parameter, set “@trigger().outputs.windowEndTime” and click OK.
+@trigger().outputs.windowEndTime End of the window associated with the trigger run
+
+![image](https://github.com/user-attachments/assets/eecc0fce-9468-4f27-8cfa-7d4532af11ef)
+
+9.Before Publishing our pipeline, delete the files from your silver and gold container
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
