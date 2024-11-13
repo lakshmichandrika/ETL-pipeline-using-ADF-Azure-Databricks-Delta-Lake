@@ -157,10 +157,6 @@ On your databricks workspace create a folder named enrichment & create 2 new pyt
 On your databricks workspace create a set-up folder create a new python file named:
 - database.py
 
-![alt text](image.png)
-![alt text](image-1.png)
-
-
 9.Run all notebook and test it by uncommenting the lines which we have commented earlier.
 
 
