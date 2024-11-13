@@ -153,6 +153,7 @@ Also in your databricks workspace create a folder called "includes" and inside i
 On your databricks workspace create a folder named enrichment & create 2 new python files named:
 - customer.py
 - loantTrx.py
+
 On your databricks workspace create a set-up folder create a new python file named:
 - database.py
 
@@ -160,10 +161,10 @@ On your databricks workspace create a set-up folder create a new python file nam
 ![alt text](image-1.png)
 
 
+9.Run all notebook and test it by uncommenting the lines which we have commented earlier.
 
 
-
-
+10.Querying database tables:Inside your utilities folder, create a SQL Notebook
 
 
 
