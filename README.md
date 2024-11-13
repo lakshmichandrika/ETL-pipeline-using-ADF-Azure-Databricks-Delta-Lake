@@ -164,23 +164,36 @@ On your databricks workspace create a set-up folder create a new python file nam
 9.Run all notebook and test it by uncommenting the lines which we have commented earlier.
 
 
-10.Querying database tables:Inside your utilities folder, create a SQL Notebook
+10.Querying database tables:Inside your utilities folder, create a SQL_queries Notebook
+
+![alt text](image-2.png)
 
 
+Set up Data Factory:
 
+1.create a data factory,On Git configuration tab mark Configure Git later, because is not necessary
 
+2.Generate Access Token for Data Factory,
 
+Go to your databricks workspace, select settings > User Settings.
 
+![alt text](image-3.png)
 
+Select Generate a new token, set the lifetime days and click on Generate.
 
+![alt text](image.png)
 
+Copy the token to a notepad because we will need it later
 
+![alt text](image-1.png)
 
+3.Create a pipeline in adf,
 
-
-
-
-
+create a pipeline and give 
+Settings:
+— Concurrency = 1
+Parameters:
+— Create “p_processing_date” param of type string.
 
 
 

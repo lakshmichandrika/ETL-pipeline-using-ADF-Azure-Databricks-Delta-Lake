@@ -1,0 +1,13 @@
+# Querying our master customer table
+SELECT * FROM demo.customer WHERE is_active = True LIMIT 2;
+
+
+# Querying our featureLoanTrx table with some filters/predicates
+SELECT * FROM demo.featureLoanTrx 
+WHERE payment_period > 12  
+AND category = 'SILVER'
+LIMIT 2;
+
+
+# Querying our aggLoanTrx table with some filters/predicates
+SELECT * FROM demo.aggLoanTrx LIMIT 2;
