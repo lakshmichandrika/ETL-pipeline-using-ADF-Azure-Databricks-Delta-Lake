@@ -162,7 +162,7 @@ On your databricks workspace create a set-up folder create a new python file nam
 
 10.Querying database tables:Inside your utilities folder, create a SQL_queries Notebook
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 
 Set up Data Factory:
@@ -173,15 +173,15 @@ Set up Data Factory:
 
 Go to your databricks workspace, select settings > User Settings.
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 Select Generate a new token, set the lifetime days and click on Generate.
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 Copy the token to a notepad because we will need it later
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 3.Create a pipeline in adf,
 
