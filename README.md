@@ -162,7 +162,7 @@ On your databricks workspace create a set-up folder create a new python file nam
 
 10.Querying database tables:Inside your utilities folder, create a SQL_queries Notebook
 
-![alt text](images/image-2.png)
+![alt text](images\image-2.png)
 
 
 Set up Data Factory:
