@@ -214,12 +214,7 @@ Select your parameter and use the @formatDateTime(date, str_format) to cast it f
 
 ![image](https://github.com/user-attachments/assets/f8d768d8-8ffa-4b3b-9439-f06f51d9bfd3)
 
-7.create a tumbling window trigger
-
-![image](https://github.com/user-attachments/assets/19f5850e-a227-465a-81c7-552f714c7cb7)
-
-![image](https://github.com/user-attachments/assets/6ac51a99-092b-46c1-a5a3-913cfc61d569)
-
+7.create a tumbling window trigger with start and end end data  and set max concurrency=1
 
 8.After clicking OK, on the new screen we need to send a value to our pipeline parameter, set “@trigger().outputs.windowEndTime” and click OK.
 @trigger().outputs.windowEndTime End of the window associated with the trigger run
