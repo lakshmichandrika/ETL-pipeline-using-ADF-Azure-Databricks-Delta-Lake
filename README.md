@@ -35,7 +35,7 @@ Process:
 
 ![image](https://github.com/user-attachments/assets/076afdf5-b748-4fb1-8e9e-0768addb2c7d)
 
-![image](https://github.com/user-attachments/assets/0fc51117-8641-441e-b60f-7ffc551efaec)
+
 
 8.Go to your storage account, on the left panel click on Access Control (IAM) and then on Add Role Assignment.
 Select the “Storage Blob Data Contributor” role, then click on next or go to Members tab
@@ -123,7 +123,7 @@ About dataset:
 
 3.Once you have set up your Storage Explorer, you just need to drag and drop the folders in it
 
-![image](https://github.com/user-attachments/assets/248d7c45-bdfd-405c-8180-37e063d80df7)
+
 
 4.The execution order of our files is the following:
 
