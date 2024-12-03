@@ -1,0 +1,47 @@
+[
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/customer/customer_2022-09-10.csv",
+        "sink_folderpath" : "customer",
+        "sink_filename" : "customer_2022-09-10.csv"
+    },
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/customer/customer_2022-09-11.csv",
+        "sink_folderpath" : "customer",
+        "sink_filename" : "customer_2022-09-11.csv"
+    },
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/customer/customer_2022-09-12.csv",
+        "sink_folderpath" : "customer",
+        "sink_filename" : "customer_2022-09-12.csv"
+    },
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/customerDriver/customerDrivers_2022-09-10.csv",
+        "sink_folderpath" : "customerDriver",
+        "sink_filename" : "customerDrivers_2022-09-10.csv"
+    },
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/customerDriver/customerDrivers_2022-09-11.csv",
+        "sink_folderpath" : "customerDriver",
+        "sink_filename" : "customerDrivers_2022-09-11.csv"
+    },
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/customerDriver/customerDrivers_2022-09-12.csv",
+        "sink_folderpath" : "customerDriver",
+        "sink_filename" : "customerDrivers_2022-09-12.csv"
+    },
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/transactions/loanTrx_2022-09-10.csv",
+        "sink_folderpath" : "transactions",
+        "sink_filename" : "loanTrx_2022-09-10.csv"
+    },
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/transactions/loanTrx_2022-09-11.csv",
+        "sink_folderpath" : "transactions",
+        "sink_filename" : "loanTrx_2022-09-11.csv"
+    },
+    {
+        "github_relative_url" : "lakshmichandrika/ETL-pipeline-using-ADF-Azure-Databricks-Delta-Lake/refs/heads/main/Datasets/transactions/loanTrx_2022-09-12.csv",
+        "sink_folderpath" : "transactions",
+        "sink_filename" : "loanTrx_2022-09-12.csv"
+    }
+]
